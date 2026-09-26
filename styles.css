@@ -50,8 +50,6 @@ em { font-style: normal; color: var(--ink); font-weight: 600; }
   color: var(--coral);
   margin-bottom: 1rem;
 }
-.section-label.light { color: rgba(255, 248, 246, 0.75); }
-
 /* ——— Nav ——— */
 .nav {
   position: fixed;
@@ -573,26 +571,6 @@ em { font-style: normal; color: var(--ink); font-weight: 600; }
 .feature-list h3 { margin-bottom: 0.65rem; font-size: 1.35rem; }
 .feature-list p { font-size: 1.05rem; max-width: 22rem; }
 
-/* ——— Mood ——— */
-.mood {
-  margin: 0;
-  padding: 6.5rem 1.5rem;
-  text-align: center;
-  background:
-    radial-gradient(ellipse 70% 80% at 50% 100%, rgba(255, 200, 190, 0.25), transparent 55%),
-    linear-gradient(160deg, #E8576A 0%, #C23A4E 100%);
-  color: var(--hero-ink);
-}
-.mood h2 {
-  color: #fff;
-  margin-bottom: 1rem;
-}
-.mood p:last-child {
-  color: rgba(255, 248, 246, 0.85);
-  font-size: 1.2rem;
-  font-weight: 500;
-}
-
 /* ——— CTA ——— */
 .cta {
   padding: 6rem 1.25rem;
@@ -609,12 +587,6 @@ em { font-style: normal; color: var(--ink); font-weight: 600; }
   box-shadow: 0 10px 32px rgba(232, 87, 106, 0.35);
 }
 .cta .btn-primary:hover { background: var(--coral-deep); }
-.fine {
-  font-size: 0.8rem;
-  margin-top: 1.25rem !important;
-  margin-bottom: 0 !important;
-  opacity: 0.8;
-}
 
 /* ——— Footer ——— */
 .footer {

@@ -571,6 +571,53 @@ em { font-style: normal; color: var(--ink); font-weight: 600; }
 .feature-list h3 { margin-bottom: 0.65rem; font-size: 1.35rem; }
 .feature-list p { font-size: 1.05rem; max-width: 22rem; }
 
+/* ——— FAQ ——— */
+.faq {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 6rem 1.5rem;
+}
+.faq-intro {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.faq-list {
+  border-top: 1px solid var(--line);
+}
+.faq-list details {
+  border-bottom: 1px solid var(--line);
+  padding: 1.25rem 0;
+}
+.faq-list summary {
+  cursor: pointer;
+  list-style: none;
+  font-weight: 700;
+  font-size: clamp(1.05rem, 2vw, 1.2rem);
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  padding-right: 2rem;
+  position: relative;
+  line-height: 1.35;
+}
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list summary::after {
+  content: "+";
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 1.35rem;
+  font-weight: 500;
+  color: var(--coral);
+  line-height: 1;
+}
+.faq-list details[open] summary::after { content: "–"; }
+.faq-list details p {
+  margin-top: 0.85rem;
+  font-size: 1.05rem;
+  max-width: 38rem;
+  padding-right: 2rem;
+}
+
 /* ——— CTA ——— */
 .cta {
   padding: 6rem 1.25rem;
